@@ -1,4 +1,4 @@
-require alphaSwap = require('./hw2')
+var alphaSwap = require('./hw2')
 
 describe("hw2", function() {
   it("should return correct answer when str = nick", function() {
