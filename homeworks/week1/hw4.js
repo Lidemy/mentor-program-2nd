@@ -1,0 +1,3 @@
+function printFactor(n) {
+
+}
