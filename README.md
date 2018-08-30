@@ -77,6 +77,8 @@ Mindset 建立：
 
 也會教大家寫簡單的 unit test，並且自己寫 test case 檢驗自己的函式。
 
+[HW2 作業連結](/homeworks/week2)
+
 #### 目標：
 
 - [ ] 了解常用內建函式
