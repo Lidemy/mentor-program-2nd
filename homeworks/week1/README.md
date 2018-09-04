@@ -1,18 +1,27 @@
 # 作業
 
+備註：以下題目請看清楚題目要求，如果要你「印出」，代表你要在 function 內使用`console.log`印出正確答案，如果要你「回傳」，則是用`return`把正確的值傳回去。
+
 ## hw1：印出星星
-給定 n（1<=n<=30），依照規律印出正確圖形
+給定 n（1<=n<=30），依照規律「印出」正確圖形
 
 ```
-n = 1
+printStars(1)
+正確輸出：
 *
+```
 
-n = 3
+```
+printStars(3)
+正確輸出：
 *
 *
 *
+```
 
-n = 6
+```
+printStars(6)
+正確輸出：
 *
 *
 *
@@ -22,46 +31,48 @@ n = 6
 ```
 
 ## hw2：首字母大寫
-給定一字串，把第一個字轉成大寫之後回傳，若第一個字不是英文字母則忽略。
+給定一字串，把第一個字轉成大寫之後「回傳」，若第一個字不是英文字母則忽略。
 
 ```
-input: nick
-output: Nick
+capitalize('nick')
+正確回傳值：Nick
 
-input: Nick
-output: Nick
+capitalize('Nick')
+正確回傳值：Nick
 
-input: ,hello
-output: ,hello
+capitalize(',hello')
+正確回傳值：,hello
 ```
 
 ## hw3：反轉字串
-給定一個字串，請輸出反轉之後的樣子（不能使用內建的 `reverse` 函式）
+給定一個字串，請「印出」反轉之後的樣子（不能使用內建的 `reverse` 函式）
 
 ```
-input: yoyoyo
-output: oyoyoy
+reverse('yoyoyo')
+正確輸出：oyoyoy
 
-input: 1abc2
-output: 2bca1
+reverse('1abc2')
+正確輸出：2bca1
 
-input 1,2,3,2,1
-output: 1,2,3,2,1
+reverse('1,2,3,2,1')
+正確輸出：1,2,3,2,1
 ```
 
 ## hw4：印出因數
-先幫大家複習一下數學，給定一個數字 n，因數就是所有小於等於 n 又可以被 n 整除的數，所以最明顯的例子就是 1 跟 n，這兩個數一定是 n 的因數。現在請寫出一個函式來印出所有的因數
+先幫大家複習一下數學，給定一個數字 n，因數就是所有小於等於 n 又可以被 n 整除的數，所以最明顯的例子就是 1 跟 n，這兩個數一定是 n 的因數。現在請寫出一個函式來「印出」所有的因數
 
 ```
-input: 10
-output:
+printFactor(10)
+正確輸出：
 1
 2
 5
 10
+```
 
-input: 7
-output:
+```
+printFactor(7)
+正確輸出：
 1
 7
 ```
@@ -71,17 +82,17 @@ output:
 
 我們要實作的函式有兩個：join 以及 repeat。
 
-join 會接收兩個參數：一個陣列跟一個字串，會在陣列的每個元素中間插入一個字串，最後合起來。
+join 會接收兩個參數：一個陣列跟一個字串，會在陣列的每個元素中間插入一個字串，最後回傳合起來的字串。
 
-repeat 的話就是輸出重複 n 次之後的字串。
+repeat 的話就是回傳重複 n 次之後的字串。
 
 ```
-join([1, 2, 3], '') => 123
-join(["a", "b", "c"], "!") => a!b!c
-join(["a", 1, "b", 2, "c", 3], ',') => a,1,b,2,c,3
+join([1, 2, 3], '')，正確回傳值：123
+join(["a", "b", "c"], "!")，正確回傳值：a!b!c
+join(["a", 1, "b", 2, "c", 3], ',')，正確回傳值：a,1,b,2,c,3
 
-repeat('a', 5) => aaaaa
-repeat('yoyo', 2) => yoyoyoyo
+repeat('a', 5)，正確回傳值：aaaaa
+repeat('yoyo', 2)正確回傳值：yoyoyoyo
 ```
 
 ## hw6：簡答題
