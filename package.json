@@ -32,6 +32,6 @@
     }
   },
   "lint-staged": {
-    "*.js": ["npm run lint", "git add"]
+    "*.js": ["standard --verbose | snazzy", "git add"]
   }
 }
