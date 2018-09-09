@@ -1,5 +1,5 @@
-function add(a, b) {
-  
+function add (a, b) {
+
 }
 
-module.exports = add;
+module.exports = add

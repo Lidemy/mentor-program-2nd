@@ -1,5 +1,5 @@
-function stars(n) {
+function stars (n) {
 
 }
 
-module.exports = stars;
+module.exports = stars

@@ -1,4 +1,4 @@
-function alphaSwap(str) {
+function alphaSwap (str) {
 
 }
 

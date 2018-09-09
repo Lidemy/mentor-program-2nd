@@ -1,5 +1,5 @@
-function isPalindromes(str) {
-  
+function isPalindromes (str) {
+
 }
 
 module.exports = isPalindromes

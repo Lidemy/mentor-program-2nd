@@ -28,10 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run lint"
     }
-  },
-  "lint-staged": {
-    "*.js": ["standard --verbose | snazzy", "git add"]
   }
 }
