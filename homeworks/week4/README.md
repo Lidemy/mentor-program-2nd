@@ -19,13 +19,15 @@
 1. 按下 123
 2. 按下 +
 2. 按下 456
+3. 按下 =
 4. 出現 579
 
 ### 測試2
 
 1. 按下 20
+2. 按下 -
 2. 按下 25
-3. 按下 -
+3. 按下 =
 4. 出現 -5
 
 ## hw2：仿 Google 表單
@@ -46,11 +48,11 @@
 
 ## hw3：仿 Twitch 頻道頁面
 
-請串接 [Twitch API](https://dev.twitch.tv/docs)，顯示出 League of Legends 目前正在直播的前 20 個實況。（Twitch 更新的 API，作業用的是 [Twitch API v5](https://dev.twitch.tv/docs/v5)）
+請串接 [Twitch API v5](https://dev.twitch.tv/docs/v5/)，顯示出 League of Legends 目前正在直播的前 20 個實況。
 
 ![](twitch.png)
 
-1. [Twitch API](https://dev.twitch.tv/docs)裡面有一個 API 是可以拿到現在正在直播的某個遊戲底下的資料，API 的描述是「Gets a list of live streams.」，看到這行就代表你找對 API 了。
+1. [Twitch API](https://dev.twitch.tv/docs/v5/)裡面有一個 API 是可以拿到現在正在直播的某個遊戲底下的資料，API 的描述是「Gets a list of live streams.」，看到這行就代表你找對 API 了。
 2. API 要帶的參數有一個 `game` 的欄位，請帶`League%20of%20Legends`
 3. 請顯示 20 個實況，不多不少，要剛好 20 個
 
