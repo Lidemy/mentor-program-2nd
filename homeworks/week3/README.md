@@ -7,14 +7,14 @@
 
 不需要做到完全一樣，但可以盡你所能做的相似，除此之外，還要支援超基本的 RWD，在手機上看也不會跑版。
 
-你可以觀察[這個網頁](http://mentor-program.co/huli/week2/hw1/)來決定應該如何實作。
+你可以觀察[這個網頁](https://lidemy.github.io/mentor-program-kristxeng/homeworks/week2/hw1/)來決定應該如何實作。
 
 ## hw2：仿 Medium
 
 請切出如下圖的版面：
 ![](example2.png)
 
-可以先觀察[這個網頁](http://mentor-program.co/huli/week2/hw2)。
+可以先觀察[這個網頁](https://lidemy.github.io/mentor-program-kristxeng/homeworks/week2/hw2)。
 
 文字可以自己換成其他的，只要效果有達到就好。一樣要支援簡易的 RWD，在手機上看不會跑版（拍手會自動隱藏）。
 
