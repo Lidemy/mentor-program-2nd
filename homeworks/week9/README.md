@@ -9,6 +9,7 @@
 ## hw2：實作出 Stack 與 Queue
 
 請你實作出`Stack`跟`Queue`兩個 Function，讓以下程式碼可以順利執行：
+（禁止使用內建函式`push`與`pop`）
 
 ``` js
 var stack = new Stack()
@@ -48,4 +49,4 @@ console.log(5)
 1. CSS 預處理器是什麼？我們可以不用它嗎？
 2. 請舉出任何一個跟 HTTP Cache 有關的 Header 並說明其作用。
 3. Stack 跟 Queue 的差別是什麼？
-4. 請去查詢資料並解釋 CSS Selector 的權重是如何計算的（不要複製貼上，請自己思考過一遍再自己寫出來）
+4. 請去查詢資料並解釋 CSS Selector 的權重是如何計算的（不要複製貼上，請自己思考過一遍再自己寫出來，沒有很完整也行）

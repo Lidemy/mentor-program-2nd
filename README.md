@@ -175,6 +175,8 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 版面的部分則利用 Bootstrap 搭配 Bootswatch 讓介面變得美觀。利用網格系統實作 RWD。
 
+也會講到 Promise 與 Fetch，帶大家認識比較新的 Web API。
+
 [HW7 作業連結](/homeworks/week7)
 
 #### 目標：
@@ -185,6 +187,8 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 - [ ] 知道什麼是 Bootstrap
 - [ ] 知道 Bootstrap 原理及如何應用
 - [ ] 知道什麼是網格系統以及如何應用在 RWD
+- [ ] 知道什麼是 Promise
+- [ ] 知道如何使用 Fetch
 
 ### 第八週（10/22 ~ 10/28）：後端基礎（下）
 
@@ -193,6 +197,8 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 也會讓大家購買自己的網域，理解如何將網域以及主機串連起來，讓大家可以連線到你的網站。
 
 在這個章節也會讓大家理解後端基本架構（NAT、Load balancer、DB replication 等等）
+
+最後也會補齊跟資料庫的一些知識，像是 ACID、Transaction、View 以及 Stored procedure。
 
 [HW8 作業連結](/homeworks/week8)
 
@@ -207,6 +213,8 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 - [ ] 知道什麼是 No SQL
 - [ ] 知道什麼是 Transaction 與 lock
 - [ ] 知道資料庫的 ACID
+- [ ] 知道什麼是資料庫的 View
+- [ ] 知道什麼是 Stored procedure
 
 ### 第九週（10/29 ~ 11/04）：前端中階（上）
 
@@ -216,7 +224,11 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 除此之外，這週也會介紹到基本的資料結構 stack 與 queue，JavaScript 的 Event Loop 機制以及 Cache 相關的說明。
 
+這週的第一個重點是 CSS 預處理器，第二個重點就是 JavaScript 的一些重要基礎：什麼是 this、execution context、prototype 等等。
+
 [HW9 作業連結](/homeworks/week9)
+
+延伸閱讀：[該來理解 JavaScript 的原型鍊了](https://blog.techbridge.cc/2017/04/22/javascript-prototype/)、[解读ECMAScript[1]——执行环境、作用域及闭包](http://www.cnblogs.com/leoo2sk/archive/2010/12/19/ecmascript-scope.html)、[JS 作用域](https://github.com/nightn/front-end-plan/blob/master/js/js-scope.md)
 
 #### 目標：
 
@@ -228,6 +240,7 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 - [ ] 知道什麼是 Queue
 - [ ] 知道 Event Loop 的運作方式
 - [ ] 知道 CSS Selector 權重的計算方式
+- [ ] 對 this、exectuion context、prototype 有最基礎的理解
 
 ### 第十週（11/05 ~ 11/11）：前端中階（下）
 
@@ -235,7 +248,7 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 也會講到 Webpack 誕生的理由以及模組化的 JavaScript 開發，讓學生理解為何需要使用 Webpack。
 
-除此之外也會講到一些與 CSS 相關的優化小技巧，例如說針對圖片做優化的 CSS Sprites 或是 Data URI 等等。
+除此之外也會講到一些與 CSS 相關的優化小技巧，例如說針對圖片做優化的 CSS Sprites 或是 Data URI，或是 JavaScript 與 CSS 的 uglify、minify 等等。
 
 最後也會用跟以往不太一樣的模式，做出一個簡單的 todo list。
 
