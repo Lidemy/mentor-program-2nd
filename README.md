@@ -116,7 +116,11 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 除此之外，也會在這週講 API 串接，讓大家對什麼是 API 有基本的概念，並且實作 Ajax。
 
-延伸閱讀：[輕鬆理解 Ajax 與跨來源請求](https://blog.techbridge.cc/2017/05/20/api-ajax-cors-and-jsonp/)、[DOM 的事件傳遞機制：捕獲與冒泡](https://blog.techbridge.cc/2017/07/15/javascript-event-propagation/)
+相關學習資源：
+
+1. [輕鬆理解 Ajax 與跨來源請求](https://blog.techbridge.cc/2017/05/20/api-ajax-cors-and-jsonp/)
+2. [DOM 的事件傳遞機制：捕獲與冒泡](https://blog.techbridge.cc/2017/07/15/javascript-event-propagation/)
+3. [RESTful API Design by TritonHo](https://github.com/TritonHo/slides/blob/master/Taipei%202016-04%20talk/RESTful%20API%20Design-tw-2.1.pdf)
 
 
 [HW4 作業連結](/homeworks/week4)
@@ -138,6 +142,11 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 前端基礎打得差不多以後，就要進入後端的課程，這次課程會以 PHP 為主要的語言，Node.js 為輔助。
 
 這週的課程會講解 PHP 基本觀念、語法，並且教大家安裝設定 MySQL，寫出簡單的 CRUD 應用。
+
+相關學習資源：
+
+1. [第一正規化(First Normal Form, 1NF)](https://matthung0807.blogspot.com/2017/11/first-normal-form-1nf.html)
+2. 
 
 [HW5 作業連結](/homeworks/week5)
 
@@ -200,6 +209,24 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 最後也會補齊跟資料庫的一些知識，像是 ACID、Transaction、View 以及 Stored procedure。
 
+這邊有一份參考某間公司面試考題的[綜合能力測驗](http://mentor-program.co/huli/game/index.php)，還滿有趣的，主要是測驗前八週的基礎，如果你前八週都 ok 的話，相信你一定能夠破關！
+
+這週也要特別感謝 [gandi](https://www.gandi.net/) 連續兩期全額贊助了學生購買網域的費用，在這邊特此感謝。
+
+相關學習資源：
+
+1. [MySQL 超新手入門（11）Views](http://www.codedata.com.tw/database/mysql-tutorial-11-views/)
+2. [MySQL Views](http://www.mysqltutorial.org/mysql-views-tutorial.aspx)
+3. [MySQL 超新手入門（13）Stored Routines 入門](http://www.codedata.com.tw/database/mysql-tutorial-13-stored-routines/)
+4. [只要說「我要下午茶！」——什麼是資料庫預存程序？](http://www.newtype.com.tw/aw/Article_ShareDetail.aspx?UniqueID=3)
+5. [MySQL Stored Procedure](http://www.mysqltutorial.org/mysql-stored-procedure-tutorial.aspx)
+6. [MySQL 超新手入門（16）Triggers](http://www.codedata.com.tw/database/mysql-tutorial-16-triggers/)
+7. [MySQL Triggers](http://www.mysqltutorial.org/mysql-triggers.aspx)
+8. [跟 Trigger 與 View 相關的簡報 by TritonHo](https://github.com/TritonHo/slides/blob/master/internal-talk/internal_talk1.pdf)
+9. [跟 ACID 有關的簡報 by TritonHo](https://github.com/TritonHo/slides/blob/master/Taipei%202018-06%20talk/lesson0.pdf)
+10. [MySQL CREATE INDEX](http://www.mysqltutorial.org/mysql-index/mysql-create-index/)
+11. Stored procedure 相關討論：[討論一](https://www.facebook.com/groups/616369245163622/permalink/1315254285275111/)、[討論二](https://www.facebook.com/groups/616369245163622/permalink/1316314398502433/)、[討論三](https://www.facebook.com/groups/616369245163622/permalink/1315406481926558/)、[討論四](https://www.facebook.com/yftzeng.tw/posts/10209307179835921)
+
 [HW8 作業連結](/homeworks/week8)
 
 #### 目標：
@@ -215,6 +242,7 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 - [ ] 知道資料庫的 ACID
 - [ ] 知道什麼是資料庫的 View
 - [ ] 知道什麼是 Stored procedure
+- [ ] 知道資料庫的 Trigger 以及使用時機
 
 ### 第九週（10/29 ~ 11/04）：前端中階（上）
 

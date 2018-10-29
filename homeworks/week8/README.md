@@ -15,6 +15,10 @@
  
 除此之外呢，我們在第六週的時候有實作過「通行證」的機制，其實在 PHP 裡面有內建的可以用，而這個機制就叫做 session。可以參考 [PHP 5 Sessions](https://www.w3schools.com/php/php_sessions.asp) 或是 [PHP Session 使用介紹，啟用與清除 session](http://www.webtech.tw/info.php?tid=33)，把之前留言板的作業改成用 PHP 內建的 session 機制。
 
+可參考其他同學的心得（特別感謝 @yuchun33 跟 @futianshen ）：
+1. [部署 AWS EC2 遠端主機 + Ubuntu LAMP 環境 + phpmyadmin ](https://github.com/Lidemy/mentor-program-2nd-yuchun33/issues/15)
+2. [一小時完成 VPS (Virtual Private Server) 部署 ](https://github.com/Lidemy/mentor-program-2nd-futianshen/issues/21)
+
 ## hw3：Transaction 練習
 
 Transaction 就是一筆交易的意思，在後端應用上非常常見。
