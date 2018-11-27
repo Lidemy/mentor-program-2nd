@@ -327,7 +327,7 @@ HTML 的部分就簡單帶過幾個常見的 tag，帶到 head 的一些屬性�
 
 除此之外也會教大家用 React Router 這一套 library，來實做前端的路由。
 
-而資料的部分，則是串接 [Firebase API](https://firebase.google.com/docs/)，直接把資料存在 Firebase 裡面，讓大家練習串接新的 API。
+[HW13 作業連結](/homeworks/week13)
 
 延伸閱讀：[前後端分離與 SPA](https://blog.techbridge.cc/2017/09/16/frontend-backend-mvc/)、[跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR](https://medium.com/@hulitw/introduction-mvc-spa-and-ssr-545c941669e9)
 
